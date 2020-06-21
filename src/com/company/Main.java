@@ -373,7 +373,7 @@ public class Main {
 
         //4.3. Delete 1000 elements from the end. Compare time intervals.
 
-        System.out.println("\n--Delete 100 elements from the  end--");
+        System.out.println("\n--Delete 1000 elements from the  end--");
 
         // Delete 1000 elements from the end of ArrayList
 
@@ -450,7 +450,7 @@ To delete 1000 elements from the beginning of LinkedList needs 5 Milliseconds
 To delete 1000 elements from the middle of ArrayList needs 40 Milliseconds
 To delete 1000 elements from the middle of LinkedList needs 738 Milliseconds
 
---Delete 100 elements from the  end--
+--Delete 1000 elements from the  end--
 To delete 1000 elements from the end of ArrayList needs 0 Milliseconds
 To delete 1000 elements from the end of LinkedList needs 2 Milliseconds
 
