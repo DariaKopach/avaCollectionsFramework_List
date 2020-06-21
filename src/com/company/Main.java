@@ -84,7 +84,7 @@ public class Main {
         LocalDateTime arrayListAddToBeginStart = LocalDateTime.now();
 
         for (int i = 0; i < 1000; i++) {
-            arrayList.add(1, i);
+            arrayList.add(i, i);
         }
 
         LocalDateTime arrayListAddToBeginFinish = LocalDateTime.now();
@@ -101,7 +101,7 @@ public class Main {
         LocalDateTime linkedListAddToBeginStart = LocalDateTime.now();
 
         for (int i = 0; i < 1000; i++) {
-            linkedList.add(1, i);
+            linkedList.add(i, i);
         }
         LocalDateTime linkedListAddToBeginFinish = LocalDateTime.now();
 
