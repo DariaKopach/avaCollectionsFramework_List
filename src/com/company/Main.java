@@ -410,3 +410,49 @@ public class Main {
 
     }
 }
+
+/* ----------My Output---------------
+
+--Lists Creations--
+Time for creating Array List is 430 Milliseconds
+Time for creating Linked List is 165 Milliseconds
+
+--Insert new 1000 elements on the beginning--
+To add 1000 elements in beginning of ArrayList needs 205 Milliseconds
+To add 1000 elements in beginning of LinkedList needs 1 Milliseconds
+
+--Insert  new 1000 elements on the middle--
+To add 1000 elements in the middle of ArrayList needs 69 Milliseconds
+To add 1000 elements in the middle of LinkedList needs 1612 Milliseconds
+
+--Insert  new 1000 elements on the end--
+To add 1000 elements in the end of ArrayList needs 4 Milliseconds
+To add 1000 elements in the end of LinkedList needs 0 Milliseconds
+
+--Update 1000 elements from the beginning--
+To update 1000 elements from the beginning of ArrayList needs 3 Milliseconds
+To update 1000 elements from the beginning of LinkedList needs 30 Milliseconds
+
+--Update 1000 elements  on the  middle--
+To update 1000 elements from the middle of ArrayList needs 8 Milliseconds
+To update 1000 elements from the middle of ArrayList needs 695 Milliseconds
+
+--Update 1000 elements  on the  end--
+To update 1000 elements from the end of LinkedList needs 8 Milliseconds
+To update 1000 elements from the end of LinkedList needs 11 Milliseconds
+
+--Delete 1000 elements from the  beginning--
+To delete 1000 elements from the beginning of ArrayList needs 103 Milliseconds
+To delete 1000 elements from the beginning of LinkedList needs 5 Milliseconds
+
+--Delete 1000 elements from the  middle--
+To delete 1000 elements from the middle of ArrayList needs 40 Milliseconds
+To delete 1000 elements from the middle of LinkedList needs 738 Milliseconds
+
+--Delete 100 elements from the  end--
+To delete 1000 elements from the end of ArrayList needs 0 Milliseconds
+To delete 1000 elements from the end of LinkedList needs 2 Milliseconds
+
+Process finished with exit code 0
+
+ */
