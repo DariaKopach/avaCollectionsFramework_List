@@ -230,6 +230,7 @@ public class Main {
         for (int i = 0; i < 1000; i++) {
             arrayList.set(51500 + i, i + 3);
         }
+
         LocalDateTime arrayListUpdateMiddleFinish = LocalDateTime.now();
 
         // print on console a time interval for process above
