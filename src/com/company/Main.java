@@ -135,7 +135,7 @@ public class Main {
         LocalDateTime linkedListAddToMiddleStart = LocalDateTime.now();
 
         for (int i = 0; i < 1000; i++) {
-            linkedList.add(arrayList.size()/2 + i, i);
+            linkedList.add(50500 + i, i);
         }
 
         LocalDateTime linkedListAddToMiddleFinish = LocalDateTime.now();
@@ -228,7 +228,7 @@ public class Main {
         LocalDateTime arrayListUpdateMiddleStart = LocalDateTime.now();
 
         for (int i = 0; i < 1000; i++) {
-            arrayList.set(arrayList.size()/2 + i, i + 3);
+            arrayList.set(51500 + i, i + 3);
         }
         LocalDateTime arrayListUpdateMiddleFinish = LocalDateTime.now();
 
